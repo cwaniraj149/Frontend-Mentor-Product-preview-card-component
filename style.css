@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.image-product-desktop {
+    height: 450px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.image-product-mobile{
+    display: none;
+}
+
+.content {
+    background: hsl(0, 0%, 100%);
+    padding: 15px 30px 15px 25px;
+    border-radius: 0 10px  10px 0;
+}
+
+.sub-title{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+
+.title {
+    font-family: 'Fraunces', serif; 
+}
+
+.paragraph {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.discounted-price {
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+    flex-direction: row;
+    font-family: 'Fraunces', serif; 
+    padding-right: 15px;  
+}
+
+.actual-price {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-weight: 500;    
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    height: 45px ;
+    width: 245px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cart-image {
+    margin: 2px;
+  }
+
+.button-content {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:650px) {
+    .container {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        border:2px;
+        border-radius: 15px;
+    }
+
+    .image-product-desktop {
+       display: none;
+    }
+    .image-product-mobile{
+        display: block;
+        width: 350px;
+        border-radius: 10px 10px 0 0;
+    }
+    .content {
+        background: hsl(0, 0%, 100%);
+        padding: 15px 40px 15px 40px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .button {
+        height: 43px ;
+        width: 305px;
+        
+      }
+}
+
+@media (max-width:400px) {
+    .container {
+        width: 350;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-product-desktop {
+       display: none;
+    }
+
+    .image-product-mobile{
+        display: block;
+        width: 350px;
+        height: 250px;
+        border-radius:10px 10px 0 0;
+    }
+
+    .content {
+        background: hsl(0, 0%, 100%);
+        padding: 15px 20px 15px 20px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .title {
+        margin: 15px 0 15px 0;
+    }
+
+    .paragraph {
+        margin: 20px 0 20px 0;
+    }
+
+    .button {
+        width: 310px;
+        height: 50px;
+      }
+}
+
+
