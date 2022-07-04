@@ -23,12 +23,14 @@ My work was to build out this product preview card component and get it looking 
 
 ## Overview
 
+
 ### The challenge
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
+
 
 ### Screenshot
 
@@ -38,6 +40,7 @@ Here is my destop preview of this project -
 Here is my mobile preview of this project - 
 ![Design preview for the QR code component coding challenge](./mydesigns/mobile-preview.png)
 
+
 ### Links
 
 - Solution URL: [https://github.com/cwaniraj149/Frontend-Mentor-Product-preview-card-component]
@@ -45,12 +48,14 @@ Here is my mobile preview of this project -
 
 ## My process
 
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Media Query
+
 
 ### What I learned
 
@@ -76,15 +81,17 @@ Basically, through this project, I implemented media query and gain some confide
 ```
 ```
 
+
 ### Continued development
 
 I'm still stucking in media queries so I want to continue focusing on it in future projects.
 
+
 ### Useful resources
-If you want to recall anything you can visit this amazing website
 
 - [freeCodeCamp.org](https://www.youtube.com/watch?v=1Rs2ND1ryYc&t=13485s) - This helped me in learning CSS. I really liked this pattern and will use it going forward. I'd recommend it to anyone still learning this concept.
 - [w3schools](https://www.w3schools.com/) - If you want to recall anything you can visit this amazing website. 
+
 
 ## Author
 
