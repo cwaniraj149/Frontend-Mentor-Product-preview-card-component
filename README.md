@@ -2,7 +2,7 @@
 Frontend Mentor challenges help you improve your coding skills by building realistic projects. Frontend Mentor challenge to build out this product preview card component and get it looking as close to the design as possible.
 
 ## Welcome! 👋
-My work was to build out this product preview card component and get it looking as close to the design as possible.
+My work was to build out this product preview card component to the designs inside the `/design` folder and get it looking as close to the design as possible. 
 
 
 ## Table of contents
@@ -20,7 +20,7 @@ My work was to build out this product preview card component and get it looking 
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-
+This project is a good start to using and enhancing one's HTML and CSS skills. The overall experience of doing this project is quite good.
 
 ### The challenge
 
@@ -44,9 +44,10 @@ Here is my mobile preview of this project -
 - Solution URL: [https://github.com/cwaniraj149/Frontend-Mentor-Product-preview-card-component]
 - Live Site URL: [https://cwaniraj149.github.io/Frontend-Mentor-Product-preview-card-component/]
 
+
 ## My process
 
-
+Using HTML and CSS I designed this project. This project was quite simple and easy. As the actual dimensions of image and other few minor details were not provided so I assumed it by myself.  
 ### Built with
 
 - Semantic HTML5 markup
