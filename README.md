@@ -52,10 +52,9 @@ You can find both these previews inside the /mydesign folder.
 Using HTML and CSS I designed this project. This project was quite simple and easy. As the actual dimensions of image and other few minor details were not provided so I assumed it by myself.  
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Media Query
+- HTML
+- CSS 
+- Resposnive
 
 
 ### What I learned
