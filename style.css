@@ -78,7 +78,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
+
+.button:hover {
+    background-color:hsl(158, 64%, 22%) ;
+}
 
 .cart-image {
     margin: 2px;
